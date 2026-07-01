@@ -1,0 +1,19 @@
+name: Profile Row
+icon: users
+fields:
+  items:
+    label: Profiles
+    type: structure
+    min: 1
+    max: 4
+    fields:
+      image:
+        label: Photo
+        type: files
+        multiple: false
+      name:
+        label: Name
+        type: text
+      role:
+        label: Role
+        type: text
