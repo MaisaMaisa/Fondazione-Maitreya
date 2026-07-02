@@ -1,10 +1,8 @@
 <!-- reusable "title + subtitle" block -->
- <?php
-// expects: $title, $subtitle (passed in from the calling template)
-?>
+  <?php
+  ?>
 <section class="heading-block">
-  <h2 class="heading-title"><?= $title ?? '' ?></h2>
   <?php if (isset($subtitle)): ?>
-    <p class="heading-subtitle"><?= $subtitle ?></p>
+  <div class="heading-subtitle"><?= $subtitle ?></div>
   <?php endif ?>
 </section>

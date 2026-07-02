@@ -1,21 +1,30 @@
 title: Default Page
 
-columns:
-  main:
-    width: 2/3
-    sections:
-      fields:
-        type: fields
-        fields:
-          text:
-            type: textarea
-            size: huge
-  sidebar:
-    width: 1/3
-    sections:
-      pages:
-        type: pages
-        template: default
-      files:
-        type: files
+fields:
+  heading_subtitle:
+    label: Heading subtitle
+    type: textarea
+    size: large
+    help: Separate paragraphs with a blank line.
+    default: "Fondata nel 1982, Fondazione Maitreya promuove in Italia la conoscenza e la pratica del Dharma buddhista, in modo non settario e aperto a tutti."
+
+
+# columns:
+#   main:
+#     width: 2/3
+#     sections:
+#       fields:
+#         type: fields
+#         fields:
+#           text:
+#             type: textarea
+#             size: huge
+#   sidebar:
+#     width: 1/3
+#     sections:
+#       pages:
+#         type: pages
+#         template: default
+#       files:
+#         type: files
 

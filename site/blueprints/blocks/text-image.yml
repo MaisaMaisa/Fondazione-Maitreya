@@ -1,0 +1,26 @@
+name: Text + Image
+icon: box
+preview: text-image
+fields:
+  layout:
+    label: Layout
+    type: select
+    options:
+      image-left: Image left
+      image-right: Image right
+    default: image-right
+
+  heading:
+    label: Heading
+    type: text
+
+  text:
+    label: Text
+    type: textarea
+    size: large
+
+  image:
+    label: Image
+    type: files
+    multiple: false
+    layout: cards

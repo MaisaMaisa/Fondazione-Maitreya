@@ -1,0 +1,12 @@
+name: Spacer
+icon: ruler
+preview: spacer
+fields:
+  height:
+    label: Height
+    type: select
+    options:
+      small: Small
+      medium: Medium
+      large: Large
+    default: medium

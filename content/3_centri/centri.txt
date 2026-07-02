@@ -1,0 +1,29 @@
+Title: Centri
+
+----
+
+Heading-subtitle:
+
+I centri e i Sangha collegati a Fondazione Maitreya organizzano incontri settimanali, 
+corsi di meditazione, giornate di pratica e ritiri residenziali.
+
+Ogni centro sviluppa il proprio calendario in continuità con gli insegnamenti 
+e la pratica della comunità locale.
+
+Consulta i siti dei centri per informazioni aggiornate su attività, incontri e percorsi di pratica.
+
+----
+
+Blocks: [{"content":{"items":[{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"}]},"id":"8891c039-6e39-421d-97fc-a48b636841c1","isHidden":false,"type":"vertical-row"}]
+
+----
+
+Heading-title: 
+
+----
+
+Text: 
+
+----
+
+Uuid: ns5vw7xms4cne3n8

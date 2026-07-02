@@ -1,0 +1,1 @@
+<?php snippet('spacer', ['height' => $block->height()->value()]) ?>

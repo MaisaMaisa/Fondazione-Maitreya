@@ -1,0 +1,21 @@
+Title: Fondazione
+
+----
+
+Heading-subtitle: Ispirata alla figura di Maitreya, il Buddha del futuro, la Fondazione promuove una visione contemporanea e accessibile della pratica buddhista
+
+----
+
+Blocks: [{"content":{"layout":"image-right","heading":"La Fondazione","text":"Fondazione Maitreya è un istituto di cultura dedicato alla diffusione del Dharma e della pratica buddhista in Italia. È stata fondata nel 1984 da Vincenzo Piga, tra i principali promotori del buddhismo nel nostro Paese e fondatore, nel 1985, dell’Unione Buddhista Italiana.\n\nIspirata alla figura di Maitreya, il Buddha del futuro, la Fondazione sostiene una visione contemporanea e accessibile della pratica. Nel tempo ha costruito spazi di incontro, studio e condivisione, favorendo il dialogo tra tradizione buddhista e cultura occidentale.\nLe attività si fondano su alcuni principi essenziali: accessibilità, accoglienza, continuità e cura della comunità. \n\nLa partecipazione è aperta a tutti, senza distinzione di età, esperienza o provenienza.La Fondazione sostiene la presenza degli insegnanti, la continuità dei Sangha e la possibilità di accedere gratuitamente agli insegnamenti attraverso la pratica del Dāna.\n\nFondazione Maitreya non appartiene a una specifica scuola buddhista. Promuove gli insegnamenti delle diverse tradizioni, incoraggia il dialogo interreligioso e collabora con istituzioni culturali italiane e internazionali.","image":["file://xby3hh8o3uvl3wjl"]},"id":"67b6af1e-60df-444d-ba34-2e3201c91c5a","isHidden":false,"type":"text-image"},{"content":{"text":"<p>Fondazione Maitreya non appartiene a una specifica scuola buddhista. Promuove gli insegnamenti delle diverse tradizioni, incoraggia il dialogo interreligioso e collabora con istituzioni culturali italiane e internazionali.</p>"},"id":"2a583e5a-ff81-45e7-b555-6a32bb3293b8","isHidden":false,"type":"text"},{"content":{"layout":"image-left","heading":"Vincenzo Piga","text":"Vincenzo Piga (Thiene, 1921 – Roma, 1998) è stato tra i principali promotori del buddhismo organizzato in Italia.\n\nLaureato in giurisprudenza a Padova, svolse attività sindacale e giornalistica prima di diventare rappresentante italiano presso il Comitato Economico-Sociale dell'Unione Europea a Bruxelles. Fu in quegli anni che entrò in contatto con l'insegnamento buddhista, a cui dedicò l'ultima parte della sua vita.\n\nIl suo contributo alla presenza buddhista in Italia è stato diretto e concreto. Sostenne la nascita dell'Istituto Gelug \"Lama Tzong Khapa\" di Pomaia, dell'Istituto Samantabhadra e del monastero Theravāda Santacittarama. \n\nNel 1982 fondò Paramita, prima rivista italiana di buddhismo. Nel 1985 fondò l'Unione Buddhista Italiana e lavorò per anni all'ottenimento del riconoscimento giuridico dell'UBI e all'avvio delle trattative per l'Intesa con lo Stato, secondo l'articolo 8 della Costituzione.\n\nLa sua generosità verso queste istituzioni fu personale e materiale. Con parte dei propri beni, e con il sostegno della moglie Giuseppina, costituì nel 1984 la Fondazione Maitreya, Istituto di cultura buddhista, riconosciuta dallo Stato nel 1991. \n\nLa Fondazione nasce da questa scelta: un atto di fiducia nel valore del Dharma e nella possibilità di trasmetterlo nel tempo.\n\nScomparve il 14 novembre 1998. L'Intesa con lo Stato italiano fu firmata nel 2000.","image":["file://xby3hh8o3uvl3wjl"]},"id":"095cc87e-4ca2-4cc3-9d72-db02a414e94c","isHidden":false,"type":"text-image"},{"content":{"text":"<p>Piga era convinto che le diverse tradizioni buddhiste condividessero una radice comune. Chiamava questa visione Ekayāna — un solo veicolo — e la intendeva come base per il dialogo tra scuole e per lo sviluppo di un buddhismo radicato nella cultura europea.\"</p>"},"id":"a974388e-10b0-4769-8666-387ea335283b","isHidden":false,"type":"text"}]
+
+----
+
+Heading-title: Ispirata alla figura di Maitreya, il Buddha del futuro, la Fondazione promuove una visione contemporanea e accessibile della pratica buddhista
+
+----
+
+Text: vcxczc
+
+----
+
+Uuid: h51ii3aco4ggedgu

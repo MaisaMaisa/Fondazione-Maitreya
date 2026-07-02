@@ -2,7 +2,19 @@ Title: Home
 
 ----
 
-Blocks: [{"content":{"items":[{"image":["file://aftucmyugawb95b5"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"}]},"id":"49661413-f70b-44f1-bb24-37f8da8dbe3e","isHidden":false,"type":"vertical-row"},{"content":{"text":"<p>Calendario</p>"},"id":"f5f65990-3bb6-48fc-b7d0-d220cefa1f3b","isHidden":false,"type":"text"},{"content":{"items":[{"image":["file://aftucmyugawb95b5"],"date":"15-16 Novembre 2026","title":"Ritiro residenziale di meditazione Vipassana","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"date":"15-16 Novembre 2026","title":"Ritiro residenziale di meditazione Vipassana","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"date":"15-16 Novembre 2026","title":"Ritiro residenziale di meditazione Vipassana","subtitle":"Via Cenisio 5, 10245 Milano"}]},"id":"4ecfdea2-7905-460e-9414-5b19d2f15006","isHidden":false,"type":"calendar-row"}]
+Heading-title: 
+
+----
+
+Heading-subtitle:
+
+Fondazione Maitreya ti dà il benvenuto
+
+Fondata nel 1982, Fondazione Maitreya promuove in Italia la conoscenza e la pratica del Dharma buddhista, in modo non settario e aperto a tutti.
+
+----
+
+Blocks: [{"content":{"items":[{"image":["file://aftucmyugawb95b5"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"}]},"id":"49661413-f70b-44f1-bb24-37f8da8dbe3e","isHidden":false,"type":"vertical-row"},{"content":{"text":"<p>Calendario</p>"},"id":"f5f65990-3bb6-48fc-b7d0-d220cefa1f3b","isHidden":false,"type":"text"},{"content":{"items":[{"image":["file://aftucmyugawb95b5"],"date":"15-16 Novembre 2026","title":"Ritiro residenziale di meditazione Vipassana","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"date":"15-16 Novembre 2026","title":"Ritiro residenziale di meditazione Vipassana","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://aftucmyugawb95b5"],"date":"15-16 Novembre 2026","title":"Ritiro residenziale di meditazione Vipassana","subtitle":"Via Cenisio 5, 10245 Milano"}]},"id":"4ecfdea2-7905-460e-9414-5b19d2f15006","isHidden":false,"type":"calendar-row"},{"content":{"height":"large"},"id":"4ceae12b-3fa7-4515-bae2-d63fe37df405","isHidden":false,"type":"spacer"}]
 
 ----
 
