@@ -1,1 +1,69 @@
 Title: Fondazione Maitreya
+
+----
+
+Footer-headline: Fondazione Maitreya
+
+----
+
+Footer-addresses:
+
+- 
+  name: Fondazione Maitreya Roma
+  address: Vicolo dei Serpenti 4 – 00180, Roma
+- 
+  name: Fondazione Maitreya Milano
+  address: >
+    c/o Centro Mindfullness, Via Cenisio 5
+    – 20154, Milano
+- 
+  name: Fondazione Maitreya Livorno
+  address: >
+    c/o La Porta d’Oro, Via Goito 51 –
+    57127, Livorno
+
+----
+
+Footer-social:
+
+- 
+  label: Instagram
+  url: >
+    https://www.instagram.com/maitreya_milano/
+- 
+  label: Facebook
+  url: https://www.instagram.com/maitreya_roma/
+- 
+  label: Youtube
+  url: https://www.instagram.com/maitreya_roma/
+
+----
+
+Footer-legal:
+
+- 
+  label: Privacy Policy
+  link: 'http://localhost:8000/#'
+- 
+  label: Imprint
+  link: https://www.instagram.com/maitreya_roma/
+
+----
+
+Footer-newsletter-heading: Inscriviti alla newsletter
+
+----
+
+Footer-newsletter-placeholder: Il tuo indirizzo email
+
+----
+
+Footer-newsletter-button: Inscriviti
+
+----
+
+Footer-newsletter-action: https://login.mailchimp.com
+
+----
+
+Footer-affiliations: La Fondazione Maitreya è membro fondatore dell’Unione Buddhista Italiana, è associata all’Unione Buddhista Europea (EBU), al Tavolo Intereligioso di Roma, al Gruppo Nazionale di Lavoro per la Stanza del Silenzio e/o dei culti e all’Osservatorio Intereligioso sulle Violenze contro le donne.

@@ -1,5 +1,88 @@
+# title: Site
+
+# sections:
+#   pages:
+#     type: pages
+
 title: Site
 
-sections:
-  pages:
-    type: pages
+tabs:
+  content:
+    label: Content
+    icon: page
+    sections:
+      pages:
+        type: pages
+
+  footer:
+    label: Footer
+    icon: text
+    fields:
+      footer_headline:
+        label: Footer headline
+        type: text
+        default: "Fondazione Maitreya"
+
+      footer_addresses:
+        label: Addresses
+        type: structure
+        fields:
+          name:
+            label: Location name
+            type: text
+          address:
+            label: Address
+            type: textarea
+            size: small
+        min: 1
+
+      footer_social:
+        label: Social links
+        type: structure
+        fields:
+          label:
+            label: Platform name
+            type: text
+          url:
+            label: URL
+            type: url
+        min: 1
+
+      footer_legal:
+        label: Legal links
+        type: structure
+        fields:
+          label:
+            label: Label
+            type: text
+          link:
+            label: Link
+            type: link
+        min: 1
+
+      footer_newsletter_heading:
+        label: Newsletter heading
+        type: text
+        default: "Iscriviti alla newsletter"
+
+      footer_newsletter_placeholder:
+        label: Newsletter input placeholder
+        type: text
+        default: "Il tuo indirizzo email"
+
+      footer_newsletter_button:
+        label: Newsletter button text
+        type: text
+        default: "ISCRIVITI"
+
+      footer_newsletter_action:
+        label: Newsletter form action URL
+        type: url
+        help: Endpoint from your newsletter provider (Mailchimp, Brevo, etc.) or a Kirby route.
+
+      footer_affiliations:
+        label: Affiliations text
+        type: textarea
+        buttons:
+          - link
+        help: Shown as small print at the bottom of the footer. Supports links via kirbytext.
