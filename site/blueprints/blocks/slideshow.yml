@@ -1,0 +1,8 @@
+name: Slideshow
+icon: images
+fields:
+  images:
+    label: Images
+    type: files
+    multiple: true
+    layout: cards

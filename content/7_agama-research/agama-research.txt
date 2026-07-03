@@ -1,0 +1,17 @@
+Title: Agama Research
+
+----
+
+Heading-subtitle: Progetto internazionale di ricerca sul buddhismo antico
+
+----
+
+Blocks: [{"content":{"layout":"image-right","heading":"Agama Reseach Group Italia","text":"Agama Research Group Italia è una comunità di pratica collegata ad Agama Research Group, progetto internazionale di studio sul buddhismo antico fondato nel 2012 da Bhikkhuni Dhammadinna e Bhikkhu Analayo presso il Dharma Drum Institute of Liberal Arts di Taiwan.\n\nGli insegnamenti, offerti in lingua italiana, si basano principalmente sulle fonti del buddhismo antico e sulla tradizione Theravada dello Sri Lanka, nella quale entrambi gli insegnanti sono ordinati.\n\nIn Italia, Bhikkhuni Dhammadinna svolge il ruolo di ministra di culto presso Fondazione Maitreya nell’ambito dell’Unione Buddhista Italiana.","image":["file://w2348n2kzuech98d"]},"id":"ea645fb7-4605-4cdb-a25a-5c422bb895e8","isHidden":false,"type":"text-image"},{"content":{"link_left_text":"Visita il sito di Agama Research Group Italia   ","link_left_url":"https://www.tripadvisor.com/Hotel_Review-g2159104-d33425444-Reviews-Pousada_Casa_De_Maitreya-Alto_Paraiso_de_Goias_Chapada_dos_Veadeiros_National_Park_S.html","link_right_text":"Visita il sito di Agama Research Group Italia   ","link_right_url":"https://www.tripadvisor.com/Hotel_Review-g2159104-d33425444-Reviews-Pousada_Casa_De_Maitreya-Alto_Paraiso_de_Goias_Chapada_dos_Veadeiros_National_Park_S.html"},"id":"a9557408-ef7d-4dc0-8f82-d8253b25730f","isHidden":false,"type":"two-column-links"}]
+
+----
+
+Text: 
+
+----
+
+Uuid: tn7qg6nxm5cebary

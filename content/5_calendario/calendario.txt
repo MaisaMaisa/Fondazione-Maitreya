@@ -1,0 +1,21 @@
+Title: Calendario
+
+----
+
+Heading-subtitle: 
+
+----
+
+Blocks: [{"content":{"title":"Upcoming Events","level":"h2","text":"<p>n</p>"},"id":"c10218fb-5dbd-4088-a7b0-0536472fc165","isHidden":false,"type":"centered-title"},{"content":{"date":"15-16 Agosto 2026","event_title":"Ritiro residenziale di Meditazione Vipassana","location":"Via Cenisio 5, 10245 Milano'","description":"Fondazione Maitreya Milano è uno spazio di pratica e studio dove ritrovarsi insieme, partecipare a incontri settimanali e approfondire il Dharma in modo accessibile. Fondazione Maitreya Livorno è il sangha locale dedicato alla meditazione, alla presenza e alla condivisione, con incontri aperti a chi vuole avvicinarsi alla pratica. Fondazione Maitreya Roma è la sede storica della fondazione, un luogo di pratica, insegnamento e accoglienza nel centro della","button_label":"Scopri di più","button_link":"","image":["file://pnably13llbwxwix"]},"id":"542f1596-4831-4a72-9f95-bc43d6e96889","isHidden":false,"type":"event"},{"content":{"title":"Past events","level":"h2"},"id":"8c840dc4-154f-4c1a-b092-eb39c7ff86f8","isHidden":false,"type":"centered-title"},{"content":{"date":"15-16 Agosto 2026","event_title":"Ritiro residenziale di Meditazione Vipassana","location":"Via Cenisio 5, 10245 Milano'","description":"Fondazione Maitreya Milano è uno spazio di pratica e studio dove ritrovarsi insieme, partecipare a incontri settimanali e approfondire il Dharma in modo accessibile. Fondazione Maitreya Livorno è il sangha locale dedicato alla meditazione, alla presenza e alla condivisione, con incontri aperti a chi vuole avvicinarsi alla pratica. Fondazione Maitreya Roma è la sede storica della fondazione, un luogo di pratica, insegnamento e accoglienza nel centro della","button_label":"Scopri di più","button_link":"","image":["file://pnably13llbwxwix"]},"id":"0055be58-7583-41c9-983d-964a7bf5c5a1","isHidden":false,"type":"event"},{"content":{"date":"15-16 Agosto 2026","event_title":"Ritiro residenziale di Meditazione Vipassana","location":"Via Cenisio 5, 10245 Milano'","description":"Fondazione Maitreya Milano è uno spazio di pratica e studio dove ritrovarsi insieme, partecipare a incontri settimanali e approfondire il Dharma in modo accessibile. Fondazione Maitreya Livorno è il sangha locale dedicato alla meditazione, alla presenza e alla condivisione, con incontri aperti a chi vuole avvicinarsi alla pratica. Fondazione Maitreya Roma è la sede storica della fondazione, un luogo di pratica, insegnamento e accoglienza nel centro della","button_label":"Scopri di più","button_link":"","image":["file://pnably13llbwxwix"]},"id":"35266dc1-d2d8-465f-91fb-fb417681d768","isHidden":false,"type":"event"},{"content":{"date":"15-16 Agosto 2026","event_title":"Ritiro residenziale di Meditazione Vipassana","location":"Via Cenisio 5, 10245 Milano'","description":"Fondazione Maitreya Milano è uno spazio di pratica e studio dove ritrovarsi insieme, partecipare a incontri settimanali e approfondire il Dharma in modo accessibile. Fondazione Maitreya Livorno è il sangha locale dedicato alla meditazione, alla presenza e alla condivisione, con incontri aperti a chi vuole avvicinarsi alla pratica. Fondazione Maitreya Roma è la sede storica della fondazione, un luogo di pratica, insegnamento e accoglienza nel centro della","button_label":"Scopri di più","button_link":"","image":["file://pnably13llbwxwix"]},"id":"f8b80778-df2c-4f7e-a34a-e49b3f538e84","isHidden":false,"type":"event"}]
+
+----
+
+Template: standard
+
+----
+
+Text: 
+
+----
+
+Uuid: 6gmddv7snb6bf8gq

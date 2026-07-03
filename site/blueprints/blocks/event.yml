@@ -1,0 +1,39 @@
+name: Event
+icon: calendar
+# preview: event
+fields:
+  date:
+    label: Date
+    type: text
+    placeholder: "15-16 Agosto 2026"
+    help: Free text so you can enter ranges like this, not a strict date picker.
+
+  event_title:
+    label: Event title
+    type: text
+    placeholder: "Ritiro residenziale di Meditazione Vipassana"
+
+  location:
+    label: Location
+    type: text
+    placeholder: "Via Cenisio 5, 20154 Milano"
+
+  description:
+    label: Description
+    type: textarea
+    size: large
+
+  button_label:
+    label: Button label
+    type: text
+    default: "Scopri di più"
+
+  button_link:
+    label: Button link
+    type: link
+
+  image:
+    label: Image
+    type: files
+    multiple: false
+    layout: cards

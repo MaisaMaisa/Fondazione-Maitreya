@@ -1,4 +1,17 @@
 Title: Corsi
+----
+
+Template: standard
+
+----
+
+Heading-subtitle:
+
+test
+
+test
+
+test
 
 ----
 

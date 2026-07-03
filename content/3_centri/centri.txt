@@ -1,4 +1,7 @@
 Title: Centri
+----
+
+Template: standard
 
 ----
 

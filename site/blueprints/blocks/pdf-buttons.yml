@@ -1,0 +1,17 @@
+name: PDF Buttons
+icon: page
+fields:
+  documents:
+    label: Documents
+    type: structure
+    fields:
+      label:
+        label: Button label
+        type: text
+        placeholder: "Paramita Nr.1"
+      file:
+        label: PDF file
+        type: files
+        multiple: false
+        layout: cards
+    min: 1

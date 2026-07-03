@@ -1,0 +1,20 @@
+name: Two Column Links
+icon: url
+fields:
+  link_left_text:
+    label: Left link text
+    type: text
+    placeholder: "Visita il sito di Casa Maitreya"
+
+  link_left_url:
+    label: Left link
+    type: link
+
+  link_right_text:
+    label: Right link text
+    type: text
+    placeholder: "Visita il sito di Casa Maitreya"
+
+  link_right_url:
+    label: Right link
+    type: link

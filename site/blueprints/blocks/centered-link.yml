@@ -1,0 +1,11 @@
+name: Centered Link
+icon: url
+fields:
+  link_text:
+    label: Link text
+    type: text
+    placeholder: "Visita il sito di Casa Maitreya"
+
+  link_url:
+    label: Link
+    type: link

@@ -1,0 +1,17 @@
+name: Centered Title
+icon: title
+# preview: text
+fields:
+  title:
+    label: Title
+    type: text
+    placeholder: "Section title"
+
+  level:
+    label: Heading level
+    type: select
+    options:
+      h1: H1 (page title)
+      h2: H2 (section title)
+      h3: H3 (subsection)
+    default: h2

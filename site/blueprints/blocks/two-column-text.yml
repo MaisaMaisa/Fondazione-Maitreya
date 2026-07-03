@@ -1,0 +1,12 @@
+name: Two Column Text
+icon: text
+fields:
+  column_left:
+    label: Left column
+    type: textarea
+    size: large
+
+  column_right:
+    label: Right column
+    type: textarea
+    size: large
