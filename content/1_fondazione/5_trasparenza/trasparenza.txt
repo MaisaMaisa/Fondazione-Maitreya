@@ -1,0 +1,17 @@
+Title: Trasparenza
+
+----
+
+Heading-subtitle: 
+
+----
+
+Blocks: [{"content":{"layout":"image-right","heading":"Amministrazione Trasparente","text":"Fondazione Maitreya è un ente del Terzo Settore senza scopo di lucro. Rendere conto dell'uso delle risorse ricevute è parte dell'impegno che la Fondazione assume verso chi la sostiene e verso la comunità più ampia.\n\nLe risorse provengono dalle donazioni dei partecipanti e dei Sangha, dai contributi dell'Unione Buddhista Italiana, dalle offerte raccolte durante corsi e ritiri e dal sostegno di donatori ricorrenti. Vengono impiegate per mantenere attivi gli spazi, sostenere la continuità degli insegnamenti, garantire l'accessibilità delle attività e sviluppare i progetti della Fondazione.","image":["file://gjxwatzy50ghfmqq"]},"id":"8713e1d7-11c6-4875-b7d0-fca143225a90","isHidden":false,"type":"text-image"},{"content":{"title":"Il 2025 in sintesi","level":"h2"},"id":"076de3be-a32c-47ea-9a27-c5033d5ccb03","isHidden":false,"type":"centered-title"},{"content":{"chart_one_title":"Utilizzo risorse","chart_one_slices":[{"label":"Dana e donazioni","percentage":35,"color":"#d30202"},{"label":"Contributi UBI","percentage":30,"color":"#8c5454"},{"label":"Ritiri e attività","percentage":15,"color":"#284596"},{"label":"Lasciti","percentage":20,"color":"#f2ff00"}],"chart_two_title":"Utilizzo risorse","chart_two_slices":[{"label":"Dana e donazioni","percentage":35,"color":"#5b0f0f"},{"label":"Contributi UBI","percentage":30,"color":"#3fb597"},{"label":"Ritiri e attività","percentage":15,"color":"#ce4444"},{"label":"Lasciti","percentage":20,"color":"#35a32c"}],"button_label":"Scarica il bilancio 2025","report_file":["file://vnmm148g4gacoakr"]},"id":"edc15c55-cb12-4cde-be1d-53fed62c4930","isHidden":false,"type":"charts-report"},{"content":{"title":"Condividere in modo trasparente l’utilizzo delle risorse è parte dell’impegno della Fondazione verso continuità, accessibilità e sostenibilità.","level":"h2"},"id":"4381f918-24d6-4e58-9f54-68232743e917","isHidden":false,"type":"centered-title"}]
+
+----
+
+Template: standard
+
+----
+
+Uuid: g5win7urkore22b6
