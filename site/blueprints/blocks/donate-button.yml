@@ -1,0 +1,37 @@
+name: Donate Button
+icon: heart
+fields:
+  amounts:
+    label: Suggested amounts (EUR)
+    type: structure
+    fields:
+      value:
+        label: Amount
+        type: number
+        min: 1
+      description:
+        label: Description
+        type: text
+    min: 1
+    default:
+      - value: 100
+        description: "Sostieni un giorno di attività"
+      - value: 500
+        description: "Sostieni due settimane di attività"
+      - value: 1000
+        description: "Sostieni un mese di attività"
+
+  free_amount_label:
+    label: Free amount button label
+    type: text
+    default: "Donazione libera"
+
+  free_amount_description:
+    label: Free amount description
+    type: text
+    default: "Decidi tu quanto donare"
+
+  button_label:
+    label: Submit button label
+    type: text
+    default: "Dona ora"

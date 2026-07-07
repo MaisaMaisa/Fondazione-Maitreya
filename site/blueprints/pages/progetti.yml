@@ -1,0 +1,18 @@
+title: Progetti
+
+fields:
+  heading_subtitle:
+    label: Heading subtitle
+    type: textarea
+    size: large
+    help: Separate paragraphs with a blank line.
+
+  blocks:
+    type: blocks
+    fieldsets:
+      - text
+      - centered-title
+      - spacer
+      - slideshow
+      - two-column-text
+      - profile-row

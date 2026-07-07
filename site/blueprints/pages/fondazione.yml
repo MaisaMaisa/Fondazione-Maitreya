@@ -1,16 +1,23 @@
 title: Fondazione
 
-fields:
-  heading_subtitle:
-    label: Heading subtitle
-    type: textarea
-    size: large
-    help: Separate paragraphs with a blank line.
-    
-  blocks:
-    type: blocks
-    fieldsets:
-      - text
-      - centered-title
-      - spacer
-      - text-image
+sections:
+  content:
+    type: fields
+    fields:
+      heading_subtitle:
+        label: Heading subtitle
+        type: textarea
+        size: large
+        help: Separate paragraphs with a blank line.
+
+      blocks:
+        type: blocks
+        fieldsets:
+          - text
+          - centered-title
+          - spacer
+          - text-image
+
+  subpages:
+    type: pages
+    label: Subpages

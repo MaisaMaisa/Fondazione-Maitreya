@@ -1,0 +1,7 @@
+name: Donation Progress
+icon: chart
+fields:
+  goal:
+    label: Goal (EUR)
+    type: number
+    default: 25000

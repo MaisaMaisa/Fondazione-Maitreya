@@ -1,0 +1,17 @@
+Title: Grazie
+
+----
+
+Heading-subtitle: Grazie per il tuo contributo. La tua donazione è stata ricevuta con successo. Grazie
+
+----
+
+Blocks: 
+
+----
+
+Template: standard
+
+----
+
+Uuid: nq3zdi0qc3shigzt

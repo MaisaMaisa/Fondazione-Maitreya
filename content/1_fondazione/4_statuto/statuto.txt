@@ -2,15 +2,15 @@ Title: Statuto
 
 ----
 
-Template: standard
-
-----
-
 Heading-subtitle: 
 
 ----
 
-Blocks: 
+Blocks: [{"content":{"goal":50000},"id":"1ba934b0-02e6-41c6-a689-1f93e3067824","isHidden":false,"type":"donation-progress"},{"content":{"amounts":[{"value":100,"description":"Sostieni un giorno di attività"},{"value":500,"description":"Sostieni due settimane di attività"},{"value":1000,"description":"Sostieni un mese di attività"}],"free_amount_label":"Donazione libera","free_amount_description":"Decidi tu quanto donare","button_label":"Dona ora"},"id":"2406e389-d9a4-4822-9717-d12ee7c30640","isHidden":false,"type":"donate-button"}]
+
+----
+
+Template: standard
 
 ----
 

@@ -1,0 +1,61 @@
+name: Charts Report
+icon: chart
+fields:
+  chart_one_title:
+    label: Chart 1 title
+    type: text
+    default: "Utilizzo risorse"
+
+  chart_one_slices:
+    label: Chart 1 slices
+    type: structure
+    fields:
+      label:
+        label: Label
+        type: text
+        placeholder: "Dana e donazioni"
+      percentage:
+        label: Percentage
+        type: number
+        min: 0
+        max: 100
+        step: 1
+      color:
+        label: Color
+        type: color
+    min: 1
+
+  chart_two_title:
+    label: Chart 2 title
+    type: text
+    default: "Utilizzo risorse"
+
+  chart_two_slices:
+    label: Chart 2 slices
+    type: structure
+    fields:
+      label:
+        label: Label
+        type: text
+        placeholder: "Dana e donazioni"
+      percentage:
+        label: Percentage
+        type: number
+        min: 0
+        max: 100
+        step: 1
+      color:
+        label: Color
+        type: color
+    min: 1
+
+  button_label:
+    label: Button label
+    type: text
+    default: "Scarica il bilancio 2025"
+
+  report_file:
+    label: Report PDF
+    type: files
+    multiple: false
+    layout: cards
