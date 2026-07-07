@@ -14,3 +14,4 @@ fields:
       - text
       - centered-title
       - two-column-text
+      - spacer
