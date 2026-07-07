@@ -1,0 +1,35 @@
+/* PROGRESS BAR */
+
+.donation-progress {
+  text-align: center;
+  margin: var(--space-l, 48px) 0;
+}
+
+.donation-progress__amounts,
+.donation-progress__donors {
+  margin: 0.6em 0;
+  font-size: 1.1rem;
+}
+
+.donation-progress__bar {
+  position: relative;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--sand);
+  max-width: 500px;
+  margin: var(--space-m, 24px) auto;
+}
+
+.donation-progress__fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--sand-dark, #a89572);
+  transition: width 0.3s ease;
+}
+
+.donation-progress__percent {
+  position: absolute;
+  right: -3em;
+  top: -0.4em;
+  font-weight: 700;
+}

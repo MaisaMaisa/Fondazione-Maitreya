@@ -1,0 +1,15 @@
+.spacer {
+  border: solid;
+}
+
+.spacer--small {
+  height: 1.5rem;
+}
+
+.spacer--medium {
+  height: 3rem;
+}
+
+.spacer--large {
+  height: 6rem;
+}

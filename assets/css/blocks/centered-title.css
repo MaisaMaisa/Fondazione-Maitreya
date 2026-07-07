@@ -1,0 +1,9 @@
+.centered-title {
+  font-size: var(--text-h2);
+  text-align: center;
+  font-family: var(--font-display);
+  /* margin: var(--space-l, 48px) 0; */
+  margin: 0;
+  font-weight: 400;
+  padding: var(--space-xl-vertical) var(--space-xl-horizontal);
+}

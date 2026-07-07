@@ -7,7 +7,7 @@
     <div class="footer-col footer-addresses">
       <?php foreach ($site->content()->get('footer_addresses')->toStructure() as $location): ?>
         <p>
-          <strong><?= $location->name()->html() ?></strong><br>
+          <?= $location->name()->html() ?><br>
           <?= nl2br($location->address()->html()) ?>
         </p>
       <?php endforeach ?>
@@ -45,7 +45,7 @@
   </div>
 
   <?php if ($site->content()->get('footer_affiliations')->isNotEmpty()): ?>
-    <p class="footer-affiliations"><?= $site->content()->get('footer_affiliations')->kirbytext() ?></p>
+    <div class="footer-affiliations"><?= $site->content()->get('footer_affiliations')->kirbytext() ?></div>
   <?php endif ?>
 
 </footer>

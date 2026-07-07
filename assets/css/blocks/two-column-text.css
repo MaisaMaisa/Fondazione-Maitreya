@@ -1,0 +1,23 @@
+/* TWO-COLUMN TEXT */
+.two-column-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-l, 48px);
+    margin: var(--space-l, 48px) 0;
+}
+
+.two-column-text__col p {
+    margin: 0 0 1em 0;
+    line-height: 1.5;
+}
+
+.two-column-text__col p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .two-column-text {
+    grid-template-columns: 1fr;
+    gap: var(--space-m, 24px);
+  }
+}
