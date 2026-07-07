@@ -1,4 +1,5 @@
-<!-- bottom footer -->
+</main>
+
 <footer class="site-footer">
   <h3><?= $site->content()->get('footer_headline')->or($site->title()) ?></h3>
 

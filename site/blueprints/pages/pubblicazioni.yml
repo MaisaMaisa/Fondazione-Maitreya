@@ -12,6 +12,7 @@ fields:
     type: blocks
     fieldsets:
       - text
+      - spacer
       - text-image
       - centered-title
       - two-column-text

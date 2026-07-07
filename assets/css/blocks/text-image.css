@@ -1,9 +1,9 @@
 .text-image {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--space-l, 48px);
+    gap: var(--space-sm, 48px);
     /* align-items: center; */
-    margin: var(--space-l, 48px) 0;
+    /* margin: var(--space-l, 48px) 0; */
 }
 
 .text-image--image-left .text-image__media {
@@ -13,18 +13,23 @@
 .text-image__media img {
     width: 100%;
     height: auto;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     display: block;
+    aspect-ratio: 4.5 / 3;
+    object-fit: cover;
 }
 
 .text-image__content h2 {
     font-family: var(--font-display);
     margin-top: 0;
+    font-size: var(--text-h2);
+    font-weight: 400;
 }
 
 .text-image__content p {
     margin-bottom: 1em;
     line-height: 1.5;
+    font-size: var(--text-body);
 }
 
 @media (max-width: 800px) {

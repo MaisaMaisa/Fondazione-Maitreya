@@ -1,7 +1,4 @@
 Title: Centri
-----
-
-Template: standard
 
 ----
 
@@ -17,7 +14,11 @@ Consulta i siti dei centri per informazioni aggiornate su attività, incontri e 
 
 ----
 
-Blocks: [{"content":{"items":[{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"}]},"id":"8891c039-6e39-421d-97fc-a48b636841c1","isHidden":false,"type":"vertical-row"}]
+Blocks: [{"content":{"items":[{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"},{"image":["file://jssrxxexuoj8jf7f"],"title":"Fondazione Maitreya Livorno","subtitle":"Via Cenisio 5, 10245 Milano"}]},"id":"8891c039-6e39-421d-97fc-a48b636841c1","isHidden":false,"type":"vertical-row"},{"content":{"height":"large"},"id":"10f3ad29-ef3f-4d02-9fc3-d34863cebb40","isHidden":false,"type":"spacer"}]
+
+----
+
+Template: standard
 
 ----
 

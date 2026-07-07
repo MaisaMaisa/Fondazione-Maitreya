@@ -1,6 +1,6 @@
 # This tells the Panel: "on the Home page, show a Blocks field that lets the editor insert Text, Centers Row, Events Row, or Team Row blocks, in any order."
 
-title: Home
+title: Calendario
 
 fields:
   heading_subtitle:

@@ -1,5 +1,3 @@
-<!-- logo + nav menu -->
-
 <header class="site-header">
   <h1 class="site-logo">
     <a href="<?= $site->url() ?>" class="site-logo__link"><?= $site->title() ?></a>
@@ -99,49 +97,4 @@
   });
 })();
 </script>
-
-<!-- <script>
-(function () {
-  // mobile hamburger toggle
-  const toggle = document.querySelector('.menu-toggle');
-  const nav = document.getElementById('site-nav');
-  if (toggle && nav) {
-    toggle.addEventListener('click', () => {
-      const isOpen = nav.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
-  }
-
-  // desktop staggered dropdown animation
-  document.querySelectorAll('.nav-item.has-dropdown').forEach(item => {
-    const links = Array.from(item.querySelectorAll('.nav-dropdown__link'));
-    let hideTimeout;
-
-    function show() {
-      clearTimeout(hideTimeout);
-      links.forEach((link, i) => {
-        link.style.transitionDelay = `${i * 60}ms`;
-      });
-      item.classList.add('is-open');
-    }
-
-    function hide() {
-      const count = links.length;
-      links.forEach((link, i) => {
-        link.style.transitionDelay = `${(count - 1 - i) * 60}ms`;
-      });
-      item.classList.remove('is-open');
-      hideTimeout = setTimeout(() => {
-        links.forEach(link => link.style.transitionDelay = '0ms');
-      }, count * 60 + 250);
-    }
-
-    item.addEventListener('mouseenter', show);
-    item.addEventListener('mouseleave', hide);
-    item.addEventListener('focusin', show);
-    item.addEventListener('focusout', (e) => {
-      if (!item.contains(e.relatedTarget)) hide();
-    });
-  });
-})();
-</script> -->
+<main>

@@ -1,9 +1,32 @@
 .centered-title {
-  font-size: var(--text-h2);
+  /* font-size: var(--text-h2); */
   text-align: center;
   font-family: var(--font-display);
   /* margin: var(--space-l, 48px) 0; */
   margin: 0;
   font-weight: 400;
   padding: var(--space-xl-vertical) var(--space-xl-horizontal);
+}
+
+.centered-title h1, .text-h1 {
+  font-family: var(--font-display);
+  font-size: var(--text-h1);
+  font-weight: 700;
+}
+
+.centered-title h2, .text-h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+}
+
+.centered-title h3, .text-h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-h3);
+  font-weight: 600;
+}
+
+.centered-title h4, .text-h4 {
+  font-family: var(--font-display);
+  font-size: var(--text-h4);
+  font-weight: 600;
 }

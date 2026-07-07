@@ -2,13 +2,13 @@
 .two-column-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--space-l, 48px);
-    margin: var(--space-l, 48px) 0;
+        gap: var(--space-sm, 48px);
 }
 
 .two-column-text__col p {
     margin: 0 0 1em 0;
     line-height: 1.5;
+        font-size: var(--text-body);
 }
 
 .two-column-text__col p:last-child {

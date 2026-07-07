@@ -83,58 +83,88 @@
 .event-block {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    gap: var(--space-l, 48px);
+    grid-template-areas:
+        "date    heading media"
+        "body    body    media";
+    column-gap: var(--space-s, 48px);
     align-items: start;
     margin: var(--space-l, 48px) 0;
 }
 
 .event-block__date {
-    font-weight: 700;
+    grid-area: date;
     font-family: var(--font-display);
     white-space: nowrap;
+    font-weight: 400;
+    font-size: var(--text-h4);
 }
 
-.event-block__content h2 {
+.event-block__heading {
+    grid-area: heading;
+    margin-left: 14vw;
+}
+
+.event-block__heading h2 {
     font-family: var(--font-display);
     margin: 0 0 0.4em 0;
+    font-weight: 400;
+    font-size: var(--text-h4);
 }
 
 .event-block__location {
-    margin: 0 0 1em 0;
+    margin: 0;
+}
+
+.event-block__media {
+    grid-area: media;
+}
+
+.event-block__body {
+    grid-area: body;
 }
 
 .event-block__description p {
     margin: 0 0 1em 0;
     line-height: 1.5;
+    font-size: var(--text-body);
 }
 
 .event-block__button {
     display: inline-block;
-    background: var(--sand);
-    border-radius: 999px;
-    padding: 0.6em 1.4em;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: inherit;
     text-transform: uppercase;
-    font-size: 0.85rem;
+
+    font-size: var(--text-nav);
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--nero-inchiostro);
+    background: var(--bronzo-chiaro);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    transition: background 0.2s ease;
 }
 
 .event-block__button:hover {
-    background: var(--sand-dark, #a89572);
+    background: var(--bronzo);
 }
 
 .event-block__media img {
-    width: 280px;
+    width: 380px;
     height: auto;
-    border-radius: 12px;
     display: block;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
 }
 
 @media (max-width: 900px) {
     .event-block {
         grid-template-columns: 1fr;
+        grid-template-areas:
+            "date"
+            "heading"
+            "media"
+            "body";
     }
 
     .event-block__media img {

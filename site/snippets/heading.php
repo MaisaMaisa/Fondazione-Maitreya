@@ -1,8 +1,7 @@
-<!-- reusable "title + subtitle" block -->
 <?php
 ?>
+<?php if (isset($subtitle) && $subtitle->isNotEmpty()): ?>
 <section class="heading-block">
-  <?php if (isset($subtitle)): ?>
-    <div class="heading-subtitle"><?= $subtitle ?></div>
-  <?php endif ?>
+  <div class="heading-subtitle"><?= $subtitle ?></div>
 </section>
+<?php endif ?>
