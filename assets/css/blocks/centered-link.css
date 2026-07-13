@@ -1,7 +1,7 @@
-/* CENTERED LINK */
 .centered-link {
+  padding: var(--space-xl-vertical-half) 0;
   text-align: center;
-  margin: var(--space-l, 48px) 0;
+  border: solid 0.3px lightgray;
 }
 
 .centered-link a {

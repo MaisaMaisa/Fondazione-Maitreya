@@ -1,11 +1,7 @@
-/* ---------- Header / Nav ---------- */
 .site-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-sm);
-  /* padding-block: var(--space-l) var(--space-m); */
-  /* border-bottom: 1px solid var(--sand); */
 }
 
 .site-logo {
@@ -13,7 +9,7 @@
   font-weight: 600;
   margin: 0;
 
-  a{
+  a {
     font-size: var(--text-logo);
     color: var(--nero-inchiostro);
     text-decoration: none;
@@ -25,10 +21,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem;
+  padding: var(--space-xl-vertical-half) 0;
 }
 
 .nav-link {
-  /* font-size: 0.8rem; */
   font-size: var(--text-nav);
   letter-spacing: 0.04em;
   font-weight: 500;
@@ -44,7 +40,6 @@
 .nav-link:hover,
 .nav-link.is-active {
   background: var(--bronzo);
-  /* color: var(--bronzo); */
 }
 
 /* DROPDOWN */
@@ -106,7 +101,7 @@
 
 @media (max-width: 768px) {
   .menu-toggle {
-    display: inline-block!important;
+    display: inline-block !important;
     font-size: var(--text-nav);
     letter-spacing: 0.04em;
     font-weight: 500;
@@ -130,7 +125,7 @@
   }
 
   .site-nav.is-open {
-    max-height: 2000px; /* generous cap so content isn't clipped */
+    max-height: 2000px;
     pointer-events: auto;
   }
 

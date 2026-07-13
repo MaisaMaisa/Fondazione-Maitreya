@@ -1,7 +1,7 @@
-/* DONATE */
 .donate-block {
   text-align: center;
-  margin: var(--space-l, 48px) 0;
+  padding: var(--space-xl-vertical-half) 0;
+  border: solid 0.3px lightgray;
 }
 
 .donate-block__amounts {
@@ -11,27 +11,30 @@
   margin-bottom: var(--space-m, 24px);
 }
 
-.donate-block__amount {
-  border: 2px solid var(--sand);
-  background: transparent;
+.donate-block__amount,
+.donate-block__amount--free {
+  border: none;
+  background: var(--bronzo-chiaro);
   border-radius: 999px;
-  padding: 0.6em 1.4em;
-  font-weight: 700;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
   cursor: pointer;
+  font-size: var(--text-nav);
+  text-transform: uppercase;
 }
 
 .donate-block__amount.is-selected {
-  background: var(--sand);
+  background: var(--bronzo);
 }
 
 .donate-block__submit {
-  background: var(--sand);
+  background: var(--bronzo-chiaro);
   border: none;
   border-radius: 999px;
   padding: 0.7em 2em;
-  font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--text-nav);
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .donate-block__submit:hover {
@@ -46,26 +49,24 @@
 }
 
 .donate-block__description {
-  font-size: 0.85rem;
+  font-size: var(--text-nav);
   margin: 0;
   text-align: center;
-  max-width: 160px;
-}
-
-.donate-block__amount--free {
-  background: transparent;
+  width: 200px;
 }
 
 .donate-block__free-input {
   display: flex;
-  flex-direction: column;
+  flex-direction: row !important;
   align-items: center;
+  justify-content: center;
   gap: 0.4em;
   margin-bottom: var(--space-m, 24px);
+  border: solid 0.3px lightgray;
 }
 
 .donate-block__free-input input {
-  border: 2px solid var(--sand);
+  border: 2px solid var(--bronzo-chiaro);
   border-radius: 999px;
   padding: 0.5em 1em;
   text-align: center;

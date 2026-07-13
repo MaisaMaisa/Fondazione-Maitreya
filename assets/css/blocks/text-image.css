@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--space-sm, 48px);
-    /* align-items: center; */
-    /* margin: var(--space-l, 48px) 0; */
+    padding: var(--space-xl-vertical-half) 0;
+    border: solid 0.3px lightgray;
 }
 
 .text-image--image-left .text-image__media {
@@ -13,7 +13,6 @@
 .text-image__media img {
     width: 100%;
     height: auto;
-    /* border-radius: 12px; */
     display: block;
     aspect-ratio: 4.5 / 3;
     object-fit: cover;
@@ -29,7 +28,7 @@
 .text-image__content p {
     margin-bottom: 1em;
     line-height: 1.5;
-    font-size: var(--text-body);
+    font-size: var(--text-h3);
 }
 
 @media (max-width: 800px) {

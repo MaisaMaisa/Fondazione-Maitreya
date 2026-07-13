@@ -1,16 +1,13 @@
-/* SLIDESHOW */
-
 .slideshow {
     position: relative;
     background: #f4f4f2;
-    
 }
 
 .slideshow__track {
     position: relative;
     width: 100%;
     aspect-ratio: 18 / 9;
-    overflow: hidden; /* moved here so only the image clips, not the arrows */
+    overflow: hidden;
 }
 
 .slideshow__slide {
@@ -47,9 +44,9 @@
 }
 
 .slideshow__arrow--prev {
-    left: -3%; /* sits in the left padding/gutter */
+    left: -3%;
 }
 
 .slideshow__arrow--next {
-    right: -3%; /* sits in the right padding/gutter */
+    right: -3%;
 }

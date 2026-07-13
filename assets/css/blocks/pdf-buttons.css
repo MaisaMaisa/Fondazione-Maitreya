@@ -5,6 +5,8 @@
   grid-template-columns: repeat(6, 1fr);
   row-gap: var(--space-m, 8px);
   column-gap: var(--space-l, 16px);
+  padding: var(--space-xl-vertical-half) 0;
+  border: solid 0.3px lightgray;
 }
 
 .pdf-collection__item {
@@ -14,16 +16,16 @@
   text-align: center;
   white-space: nowrap;
 
-    font-size: var(--text-nav);
-    letter-spacing: 0.04em;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--nero-inchiostro);
-    background: var(--bronzo-chiaro);
-    padding: 0.5rem 1rem;
-    border-radius: 999px;
-    transition: background 0.2s ease;
+  font-size: var(--text-nav);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--nero-inchiostro);
+  background: var(--bronzo-chiaro);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  transition: background 0.2s ease;
 }
 
 .pdf-collection__item:hover {

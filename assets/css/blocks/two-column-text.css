@@ -1,18 +1,26 @@
-/* TWO-COLUMN TEXT */
 .two-column-text {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-        gap: var(--space-sm, 48px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-sm, 48px);
+  padding: var(--space-xl-vertical-half) 0;
+  border: solid 0.3px lightgray;
+  font-size: var(--text-h3);
+}
+
+.two-column-text__col h2 {
+  font-size: var(--text-h2);
+  font-weight: 500;
 }
 
 .two-column-text__col p {
-    margin: 0 0 1em 0;
-    line-height: 1.5;
-        font-size: var(--text-body);
+  margin: 0 0 1em 0;
+  line-height: 1.5;
+  font-size: var(--text-h3);
+
 }
 
 .two-column-text__col p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 800px) {

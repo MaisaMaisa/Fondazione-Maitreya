@@ -1,11 +1,9 @@
-/* TWO COLUMN LINKS */
-
 .two-column-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-l, 48px);
-  margin: var(--space-l, 48px) 0;
   text-align: center;
+  padding: var(--space-xl-vertical-half) 0;
 }
 
 .two-column-links a {
