@@ -50,7 +50,7 @@ Footer-legal:
 
 ----
 
-Footer-newsletter-heading: Inscriviti alla newsletter
+Footer-newsletter-heading: Iscriviti alla newsletter
 
 ----
 

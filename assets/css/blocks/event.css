@@ -1,7 +1,7 @@
 /* EVENT */
 .event-block {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: minmax(100px, 2fr) minmax(150px, 3fr) auto;
     grid-template-areas:
         "date    heading media"
         "body    body    media";
@@ -22,7 +22,6 @@
 
 .event-block__heading {
     grid-area: heading;
-    margin-left: 14vw;
 }
 
 .event-block__heading h2 {
@@ -58,7 +57,6 @@
     font-size: var(--text-nav);
     letter-spacing: 0.04em;
     font-weight: 500;
-    text-transform: uppercase;
     text-decoration: none;
     color: var(--nero-inchiostro);
     background: var(--bronzo-chiaro);

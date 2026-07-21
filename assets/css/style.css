@@ -59,6 +59,7 @@ img {
   --space-s: 1rem;
   --space-sm: 1.5rem;
   --space-m: 2rem;
+  --space-ml: 2.7rem;
   --space-l: 4rem;
   /* --space-xl: 6rem; */
   --space-xl-vertical: clamp(0.5rem, 6vw, 3rem);
@@ -71,12 +72,14 @@ img {
   /* Font sizes: clamp(mobile, fluid-scaling, desktop) */
   --text-h1: clamp(1.75rem, 4vw + 1rem, 2.375rem);
   /* ~28px → 38px (estimated mobile) */
-  --text-h2: clamp(1.5rem, 3.5vw + 1rem, 2rem);
-  /* ~24px → 32px (estimated mobile) */
-  --text-h3: clamp(1.15rem, 2.5vw + 1rem, 1.4375rem);
-  /* ~18px → 23px (estimated mobile) */
+  /* mobile H2 = desktop H3 (1.4375rem / 23px) */
+  --text-h2: clamp(1.4375rem, 3.5vw + 1rem, 2rem);
+  /* 23px → 32px */
+  /* mobile H3 = desktop H4 (1.125rem / 18px) */
+  --text-h3: clamp(1.125rem, 2.5vw + 1rem, 1.4375rem);
+  /* 18px → 23px */
   --text-h4: clamp(1rem, 1.5vw + 1rem, 1.125rem);
-  /* ~16px → 18px (estimated mobile) */
+  /* 16px → 18px (estimated mobile) — this is the anchor the chain builds from */
 
   --text-nav: clamp(0.6875rem, 0.5vw + 0.6rem, 0.75rem);
   /* ~11px → 12px */
@@ -135,11 +138,16 @@ main {
 .heading-subtitle {
   font-size: var(--text-h2);
   color: color-mix(in srgb, var(--ink) 75%, transparent);
-  border: solid 0.3px lightgray;
+  /* border: solid 0.3px lightgray; */
 }
 
 .heading-subtitle p {
   margin: var(--space-xl-vertical-half) 0 0 0;
+  /* margin: 0; */
+}
+
+.heading-subtitle p:first-child {
+  margin-top: 0;
 }
 
 .menu-toggle {

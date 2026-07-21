@@ -1,0 +1,153 @@
+@import url('layout/header.css');
+@import url('layout/footer.css');
+@import url('base/fonts.css');
+
+@import url('blocks/spacer.css');
+@import url('blocks/rows.css');
+@import url('blocks/text-image.css');
+@import url('blocks/event.css');
+@import url('blocks/centered-title.css');
+@import url('blocks/slideshow.css');
+@import url('blocks/two-column-text.css');
+@import url('blocks/centered-link.css');
+@import url('blocks/two-column-links.css');
+@import url('blocks/pdf-buttons.css');
+@import url('blocks/charts-report.css');
+@import url('blocks/donate-button.css');
+@import url('blocks/donation-progress.css');
+
+/* ---------- Reset & base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--calce-chiara);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* THESE NEED TO BE RE-ORGANIZED/NARROWED DOWN */
+:root {
+  --ossido-di-piombo: #FF6741;
+  --ossido-di-piombo-chia: #FF8259;
+  --gommagutta: #FFBB00;
+  --gommagutta-chiaro: #FFD433;
+  --bronzo: #A08C64;
+  --bronzo-chiaro: #BBA77F;
+  --teak-scuro: #4B3C3C;
+  --foglia-scuro: #A0BE46;
+  --foglia-chiaro: #CCBB47;
+  --calce-scura: #D7D7D2;
+  --calce-chiara: #FAFAFA;
+  --pure-white: FFFFFF;
+  --nero-inchiostro: #000000;
+  --noce: #DEBE9B;
+  --variabile: #B2B5BE;
+  --sfondo: #FBBD3B;
+
+  --font-display: 'ABC Oracle', sans-serif;
+  --font-body: 'ABC Oracle', sans-serif;
+
+  --container: 1300px;
+  --space-s: 1rem;
+  --space-sm: 1.5rem;
+  --space-m: 2rem;
+  --space-ml: 2.7rem;
+  --space-l: 4rem;
+  /* --space-xl: 6rem; */
+  --space-xl-vertical: clamp(0.5rem, 6vw, 3rem);
+  /* ~40px mobile → 120px desktop */
+  --space-xl-vertical-half: clamp(0.25rem, 3vw, 1.5rem);
+  /* exactly half, at every viewport width */
+  --space-xl-horizontal: clamp(1rem, 4vw, 1.15rem);
+  /* ~16px mobile → 30px desktop */
+
+  /* Font sizes: clamp(mobile, fluid-scaling, desktop) */
+  --text-h1: clamp(1.75rem, 4vw + 1rem, 2.375rem);
+  /* ~28px → 38px (estimated mobile) */
+  --text-h2: clamp(1.5rem, 3.5vw + 1rem, 2rem);
+  /* ~24px → 32px (estimated mobile) */
+  --text-h3: clamp(1.15rem, 2.5vw + 1rem, 1.4375rem);
+  /* ~18px → 23px (estimated mobile) */
+  --text-h4: clamp(1rem, 1.5vw + 1rem, 1.125rem);
+  /* ~16px → 18px (estimated mobile) */
+
+  --text-nav: clamp(0.6875rem, 0.5vw + 0.6rem, 0.75rem);
+  /* ~11px → 12px */
+  --text-body: clamp(1rem, 1vw + 0.9rem, 1.125rem);
+  /* 16px → 18px (from Figma) */
+  --text-caption: clamp(0.75rem, 0.5vw + 0.65rem, 0.875rem);
+  /* 12px → 14px (from Figma) */
+  --text-logo: clamp(1.5rem, 2vw + 1rem, 2rem);
+  /* 24px → 32px (from Figma) */
+  --text-button: clamp(0.8125rem, 0.5vw + 0.7rem, 0.875rem);
+  /* ~13px → 14px (estimated mobile) */
+  --text-notes: clamp(5rem, 15vw + 2rem, 9.375rem);
+  /* estimated mobile → 150px */
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+main {
+  padding: 0 7vw;
+}
+
+.container {
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--space-m);
+}
+
+.site-logo,
+.text-logo {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: 500;
+}
+
+/* ---------- Headings / spacer ---------- */
+.heading-block {
+  text-align: center;
+  margin-inline: auto;
+  padding: var(--space-xl-vertical-half) 0;
+  border: solid 0.3px lightgray;
+}
+
+.heading-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--text-h2);
+
+  margin: 0 0 var(--space-s);
+}
+
+.heading-subtitle {
+  font-size: var(--text-h2);
+  color: color-mix(in srgb, var(--ink) 75%, transparent);
+  /* border: solid 0.3px lightgray; */
+}
+
+.heading-subtitle p {
+  margin: var(--space-xl-vertical-half) 0 0 0;
+  /* margin: 0; */
+}
+
+.heading-subtitle p:first-child {
+  margin-top: 0;
+}
+
+.menu-toggle {
+  display: none;
+}

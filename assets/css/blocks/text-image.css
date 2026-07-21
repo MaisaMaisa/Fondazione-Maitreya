@@ -31,6 +31,10 @@
     font-size: var(--text-h3);
 }
 
+.text-image__content p:last-child {
+    margin-bottom: 0;
+}
+
 @media (max-width: 800px) {
     .text-image {
         grid-template-columns: 1fr;
