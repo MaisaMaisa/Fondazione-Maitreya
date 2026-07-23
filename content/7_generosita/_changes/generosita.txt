@@ -1,0 +1,21 @@
+Title: Generosità
+
+----
+
+Heading-subtitle: Fondazione Maitreya si sostiene grazie alla pratica del Dana.  Dana è il libero contributo delle persone che partecipano alle attività del Sangha.
+
+----
+
+Blocks: [{"content":{"layout":"image-right","heading":"Il Dana","text":"Il Dana — la generosità — è la prima delle dieci parami, le qualità che il Buddha indicò come fondamento del cammino. Praticare la generosità coltiva la compassione, approfondisce la consapevolezza dell'interdipendenza e allenta l'attaccamento.\n\nUna delle aspirazioni più profonde della Fondazione Maitreya è rendere gli insegnamenti del Dhamma accessibili a tutti, indipendentemente dalle possibilità economiche di ciascuno. Per questo corsi, incontri e ritiri sono offerti gratuitamente o a contributo libero: chi partecipa decide quanto e se dare, secondo le proprie condizioni e la propria intenzione.\n\nLa continuità di questa offerta dipende dal sostegno di chi la riconosce come preziosa. Le donazioni ricevute permettono alla Fondazione di mantenere attivi gli spazi, sostenere gli insegnanti e garantire nel tempo l'accessibilità della pratica. In qualunque forma scegli di contribuire, il tuo gesto è parte di questa catena di generosità.","image":["file://6ovl54vh8fdwemse"]},"id":"c9bd28ec-16c0-46c9-83cf-d8fd88dee407","isHidden":false,"type":"text-image"},{"content":{"heading_text":"","level":"h2","title":"Come puoi contribuire"},"id":"271b8a16-969c-4ee8-9ec7-0cd292945170","isHidden":false,"type":"centered-title"},{"content":{"column_left":"Nel tempo, il sostegno della comunità, dell’Unione Buddhista Italiana e il lascito di Vincenzo Piga hanno reso possibile la continuità delle attività della Fondazione.\n\nAttraverso questi contributi la Fondazione organizza corsi, ritiri, incontri e progetti dedicati alla diffusione del Dharma e all’accessibilità della pratica.","column_right":"Una donazione libera è il contributo più immediato: puntuale, dell'importo che scegli, senza vincoli.\n\nUn contributo ricorrente ha un impatto più strutturale: permette alla Fondazione di pianificare nel tempo e garantire la continuità delle attività indipendentemente dalle entrate straordinarie.\n\nIl sostegno a un progetto specifico è la forma più concreta: scegli un'iniziativa, conosci l'obiettivo, vedi l'impatto diretto del tuo contributo.\n\nI Custodi della Fondazione sono coloro che scelgono un ruolo più significativo nella continuità della Fondazione. Questo programma è in definizione — se sei interessato, scrivici."},"id":"11d7a36f-7355-4094-99d0-5c9581fb62d0","isHidden":false,"type":"two-column-text"},{"content":{"link_left_text":"Fai una Donazione Libera","link_left_url":"https://www.tripadvisor.com/Hotel_Review-g2159104-d33425444-Reviews-Pousada_Casa_De_Maitreya-Alto_Paraiso_de_Goias_Chapada_dos_Veadeiros_National_Park_S.html","link_right_text":"Sostieni un progetto","link_right_url":"https://www.tripadvisor.com/Hotel_Review-g2159104-d33425444-Reviews-Pousada_Casa_De_Maitreya-Alto_Paraiso_de_Goias_Chapada_dos_Veadeiros_National_Park_S.html"},"id":"6bb9e49b-5833-4c65-a8f9-57f1ea021687","isHidden":false,"type":"two-column-links"},{"content":{"link_left_text":"Fai una Donazione Ricorrente","link_left_url":"https://www.tripadvisor.com/Hotel_Review-g2159104-d33425444-Reviews-Pousada_Casa_De_Maitreya-Alto_Paraiso_de_Goias_Chapada_dos_Veadeiros_National_Park_S.html","link_right_text":"Unisciti al gruppo dei custodi","link_right_url":"https://www.tripadvisor.com/Hotel_Review-g2159104-d33425444-Reviews-Pousada_Casa_De_Maitreya-Alto_Paraiso_de_Goias_Chapada_dos_Veadeiros_National_Park_S.html"},"id":"4c4f1332-9546-4b43-b803-1f22511f9bf0","isHidden":false,"type":"two-column-links"},{"content":{"text":"vxvxczvx"},"id":"15592f57-116a-4c3e-ab3f-526db8b2058b","isHidden":false,"type":"paragraph"}]
+
+----
+
+Text: 
+
+----
+
+Uuid: nqbdosyqitqosnfv
+
+----
+
+Lock: tnaovjHK

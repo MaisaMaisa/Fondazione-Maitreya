@@ -6,6 +6,10 @@
     border: solid 0.3px lightgray;
 }
 
+.text-image__content > *:first-child {
+  margin-top: 0;
+}
+
 .text-image--image-left .text-image__media {
     order: -1;
 }

@@ -16,7 +16,9 @@ function buildPieGradient($slices) {
 
 $chartOneSlices = $block->content()->get('chart_one_slices')->toStructure();
 $chartTwoSlices = $block->content()->get('chart_two_slices')->toStructure();
-$reportFile = $block->content()->get('report_file')->toFile();
+
+$reportFileField = $block->content()->get('report_file');
+$reportFile = $reportFileField->isNotEmpty() ? $reportFileField->toFile() : null;
 ?>
 
 <div class="charts-report">

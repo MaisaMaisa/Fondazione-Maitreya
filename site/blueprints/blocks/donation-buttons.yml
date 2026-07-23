@@ -1,0 +1,21 @@
+name: Donation Buttons
+icon: heart
+fields:
+  buttons:
+    label: Buttons
+    type: structure
+    fields:
+      label:
+        label: Button label
+        type: text
+      link:
+        label: Link
+        type: url
+    min: 1
+    default:
+      - label: "Dona 10 EURO"
+        link: "https://example.com"
+      - label: "Dona 50 EURO"
+        link: "https://example.com"
+      - label: "Dona 100 EURO"
+        link: "https://example.com"

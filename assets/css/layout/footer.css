@@ -80,8 +80,17 @@
   color: inherit;
 }
 
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  box-shadow: inset 0px 3px 6px 0px rgba(0, 0, 0, 0.35);
+}
+
 .newsletter-form input[type="email"]::placeholder {
   color: var(--nero-inchiostro);
+}
+
+.newsletter-form input[type="email"]:focus::placeholder {
+  color: transparent;
 }
 
 .newsletter-form button {

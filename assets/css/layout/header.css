@@ -1,3 +1,8 @@
+header{
+    padding: 0 7vw;
+
+}
+
 .site-header {
   display: flex;
   flex-direction: column;
@@ -12,14 +17,20 @@
 }
 
 .site-logo {
+  width: 100%;
   font-family: var(--font-display);
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  border: solid 0.3px lightgray;
   margin: 0;
 
   a {
     font-size: var(--text-logo);
     color: var(--nero-inchiostro);
     text-decoration: none;
+    border: solid 0.3px lightgray;
+    margin: 10px 0;
   }
 }
 
@@ -38,6 +49,8 @@
   row-gap: 10px;
   column-gap: 5px;
   padding: var(--space-xl-vertical-half) 0;
+  border: solid 0.3px lightgray;
+  width: 100%;
 }
 
 .nav-link {
@@ -49,14 +62,18 @@
   color: var(--nero-inchiostro);
   background: var(--bronzo-chiaro);
   padding: 0.5rem 1rem;
+  /* padding: 0.4375rem 1rem; THIS WOULD BE MORE PRECISELY 30PX -- 7px 16px, vertical scales with height, horizontal is your call */
   border-radius: 999px;
   transition: background 0.2s ease;
 }
 
-.nav-link:hover,
-.nav-link.is-active {
-  background: var(--bronzo);
+.nav-link:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link.is-active {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: var(--bronzo);
 }
 
 /* DROPDOWN */

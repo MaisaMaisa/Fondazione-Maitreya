@@ -1,0 +1,17 @@
+Title: Chi Siamo
+
+----
+
+Heading-subtitle: 
+
+----
+
+Blocks: [{"content":{"goal":25000},"id":"c9664712-9e85-4370-9e6c-9c82e4e20d9d","isHidden":false,"type":"donation-progress"},{"content":{"amounts":[{"value":100,"description":"Sostieni un giorno di attività"},{"value":500,"description":"Sostieni due settimane di attività"},{"value":1000,"description":"Sostieni un mese di attività"}],"free_amount_label":"Donazione libera","free_amount_description":"Decidi tu quanto donare","button_label":"Dona ora"},"id":"1522eda2-0758-48a5-b18b-5ece55cf5883","isHidden":false,"type":"donate-button"},{"content":{"buttons":[{"label":"test","link":"http://localhost:8000/chi-siamo"},{"label":"Dona 50 EURO","link":"https://example.com"},{"label":"Dona 100 EURO","link":"https://example.com"}]},"id":"bddec49c-2b26-4b3c-b054-41645962593a","isHidden":false,"type":"donation-buttons"}]
+
+----
+
+Template: standard
+
+----
+
+Uuid: y1wcfzfikfzce1ws

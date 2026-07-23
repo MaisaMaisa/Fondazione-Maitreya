@@ -16,6 +16,12 @@ $uid = 'slideshow-' . $block->id();
   <?php if ($images->count() > 1): ?>
     <button class="slideshow__arrow slideshow__arrow--prev" type="button" aria-label="Previous slide">&larr;</button>
     <button class="slideshow__arrow slideshow__arrow--next" type="button" aria-label="Next slide">&rarr;</button>
+
+    <div class="slideshow__dots">
+      <?php for ($d = 0; $d < $images->count(); $d++): ?>
+        <button class="slideshow__dot <?= $d === 0 ? 'is-active' : '' ?>" type="button" data-index="<?= $d ?>" aria-label="Go to slide <?= $d + 1 ?>"></button>
+      <?php endfor ?>
+    </div>
   <?php endif ?>
 </div>
 
@@ -27,18 +33,27 @@ $uid = 'slideshow-' . $block->id();
   root.dataset.bound = 'true';
 
   const slides = root.querySelectorAll('.slideshow__slide');
+  const dots = root.querySelectorAll('.slideshow__dot');
   const prev = root.querySelector('.slideshow__arrow--prev');
   const next = root.querySelector('.slideshow__arrow--next');
   let current = 0;
 
   function show(index) {
     slides[current].hidden = true;
+    dots[current]?.classList.remove('is-active');
+
     current = (index + slides.length) % slides.length;
+
     slides[current].hidden = false;
+    dots[current]?.classList.add('is-active');
   }
 
   prev.addEventListener('click', () => show(current - 1));
   next.addEventListener('click', () => show(current + 1));
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => show(parseInt(dot.dataset.index, 10)));
+  });
 })();
 </script>
 <?php endif ?>

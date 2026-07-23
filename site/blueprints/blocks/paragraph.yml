@@ -1,0 +1,11 @@
+name: Text
+icon: text
+label: "{{ text }}"
+
+
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: medium
+    buttons: true

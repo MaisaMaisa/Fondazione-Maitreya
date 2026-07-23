@@ -12,7 +12,7 @@ fields:
     type: blocks
     fieldsets:
       # Core content
-      - text
+      - paragraph
       - text-image
       - centered-title
       - spacer
@@ -35,4 +35,5 @@ fields:
 
       # money
       - donate-button
+      - donation-buttons
       - donation-progress
