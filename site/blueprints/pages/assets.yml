@@ -1,0 +1,8 @@
+title: Assets
+icon: images
+options:
+  status: false
+sections:
+  files:
+    type: files
+    label: Media Library

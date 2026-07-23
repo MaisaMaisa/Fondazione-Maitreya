@@ -1,17 +1,19 @@
 name: Centered Title
 icon: title
-# preview: text
+
 fields:
-  title:
+  heading_text:
     label: Title
-    type: text
+    type: textarea
+    size: medium
     placeholder: "Section title"
+    buttons: false
 
   level:
     label: Heading level
     type: select
     options:
-      h1: H1 (page title)
       h2: H2 (section title)
       h3: H3 (subsection)
+      body: Body text
     default: h2

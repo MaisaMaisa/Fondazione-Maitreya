@@ -1,0 +1,64 @@
+@import url('css/style.css');
+
+/* assets/panel.css */
+.k-topbar {
+  background: var(--bronzo);
+}
+
+:root {
+  --color-background: var(--bronzo);   /* your tan/gold, already applied */
+  --color-gray-900: var(--bronzo-chiaro);     /* primary text - already working */
+  --color-gray-800: var(--bronzo);     /* secondary text */
+  --color-gray-700: var(--bronzo);     /* muted/label text */
+
+  --color-gray-750: var(--bronzo);     /* card/box backgrounds (Environment stats, table rows) */
+  --color-gray-850: var(--bronzo);     /* darker nested surfaces */
+}
+
+/* Catch-all for card/box components specifically */
+.k-box,
+.k-item,
+.k-table,
+.k-system-info-item {
+    background: var(--bronzo);
+  color: var(--nero-inchiostro);
+}
+
+.k-box *,
+.k-item *,
+.k-table * {
+  color: var(--nero-inchiostro);
+}
+
+.k-button-text,
+.k-header-title-text,
+.k-button-icon,
+.k-icon,
+.k-label-text,
+.k-stat-value,
+.k-block-title,
+.k-help,
+.k-block-selector summary,
+.k-clipboard-hint,
+.k-table .k-table-index{
+    color: var(--nero-inchiostro);
+}
+
+.k-page-status-icon-option .k-button-icon svg,
+#icon-status-listed{
+    fill: var(--foglia-scuro);
+}
+
+.k-tabs-button[aria-current=true]:after{
+    background: var(--foglia-scuro);
+}
+
+.k-table th{
+    color: var(--foglia-scuro);
+}
+
+.k-panel-menu,
+.k-view-button a,
+.k-button{
+        background: var(--bronzo);
+}

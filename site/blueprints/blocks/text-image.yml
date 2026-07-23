@@ -24,3 +24,6 @@ fields:
     type: files
     multiple: false
     layout: cards
+    query: page('assets').images
+    uploads:
+      parent: page('assets')

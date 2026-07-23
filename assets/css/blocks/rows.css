@@ -7,6 +7,11 @@
   border: solid 0.3px lightgray;
 }
 
+.card {
+  display: block;
+  /* ensures <a class="card"> behaves like the old <div class="card"> */
+}
+
 .card img {
   width: 100%;
   object-fit: cover;
@@ -38,7 +43,26 @@
   text-align: center;
 }
 
-.card:hover {
+a.card.card--linked {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.card--linked:hover {
+  cursor: pointer;
+}
+
+.card--linked:hover img {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card--linked:hover .card-title,
+.card--linked:hover .card-subtitle,
+.card--linked:hover .card-date {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* .card:hover {
   cursor: pointer;;
 }
 
@@ -50,7 +74,7 @@
 .card:hover .card-subtitle,
 .card:hover .card-date {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 
 /* ---------- Events row variant ---------- */
 .card--event {

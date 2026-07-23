@@ -8,15 +8,22 @@
   </button>
 
   <nav class="site-nav" id="site-nav">
-    <?php foreach ($site->children()->listed() as $item): ?>
-      <div class="nav-item <?= $item->hasChildren() ? 'has-dropdown' : '' ?>">
-        <a href="<?= $item->url() ?>" class="nav-link <?= $item->isOpen() ? 'is-active' : '' ?>">
-          <?= $item->title() ?>
+    <?php foreach ($site->navigation()->toStructure() as $entry): ?>
+      <?php
+        $page = $entry->page()->toPage();
+        if (!$page) continue; // page picker entry got deleted/moved
+
+        $children = $entry->children()->toPages()->filter(fn ($p) => $p !== null);
+        $label    = $entry->label()->or($page->title())->value();
+      ?>
+      <div class="nav-item <?= $children->count() ? 'has-dropdown' : '' ?>">
+        <a href="<?= $page->url() ?>" class="nav-link <?= $page->isOpen() ? 'is-active' : '' ?>">
+          <?= $label ?>
         </a>
 
-        <?php if ($item->hasChildren()): ?>
+        <?php if ($children->count()): ?>
           <div class="nav-dropdown">
-            <?php foreach ($item->children()->listed() as $child): ?>
+            <?php foreach ($children as $child): ?>
               <a href="<?= $child->url() ?>" class="nav-dropdown__link <?= $child->isOpen() ? 'is-active' : '' ?>">
                 <?= $child->title() ?>
               </a>

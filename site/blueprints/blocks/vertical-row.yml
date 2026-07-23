@@ -1,3 +1,26 @@
+# name: Vertical Row
+# icon: pin
+# fields:
+#   items:
+#     label: Vertical
+#     type: structure
+#     min: 1
+#     max: 3
+#     fields:
+#       image:
+#         label: Image
+#         type: files
+#         multiple: false
+#         query: page('assets').images
+#         uploads:
+#           parent: page('assets')
+#       title:
+#         label: Title
+#         type: text
+#       subtitle:
+#         label: Subtitle
+#         type: text
+
 name: Vertical Row
 icon: pin
 fields:
@@ -11,9 +34,16 @@ fields:
         label: Image
         type: files
         multiple: false
+        query: page('assets').images
+        uploads:
+          parent: page('assets')
       title:
         label: Title
         type: text
       subtitle:
         label: Subtitle
         type: text
+      link:
+        label: Link (optional)
+        type: link
+        help: Leave empty for a non-clickable card

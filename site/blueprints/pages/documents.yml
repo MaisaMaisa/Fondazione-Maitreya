@@ -1,0 +1,8 @@
+title: Documents
+icon: page
+options:
+  status: false
+sections:
+  files:
+    type: files
+    label: Document Library

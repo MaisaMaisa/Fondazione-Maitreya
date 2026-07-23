@@ -14,4 +14,8 @@ fields:
         type: files
         multiple: false
         layout: cards
+        query: page('documents').files
+        uploads:
+          parent: page('documents')
+        accept: application/pdf
     min: 1

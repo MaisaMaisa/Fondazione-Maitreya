@@ -1,0 +1,13 @@
+Title: test
+
+----
+
+Heading-subtitle: Fondata nel 1982, Fondazione Maitreya promuove in Italia la conoscenza e la pratica del Dharma buddhista, in modo non settario e aperto a tutti.
+
+----
+
+Blocks: [{"content":{"images":["file://5wkncoqblwnddlxb","file://9mhjvqrmf7jppd7x"]},"id":"3cea898b-c844-4ee3-ada1-c00f44307609","isHidden":false,"type":"slideshow"}]
+
+----
+
+Uuid: rwb02jkf67ml0zjl

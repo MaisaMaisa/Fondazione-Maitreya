@@ -1,9 +1,3 @@
-# title: Site
-
-# sections:
-#   pages:
-#     type: pages
-
 title: Site
 
 tabs:
@@ -13,6 +7,32 @@ tabs:
     sections:
       pages:
         type: pages
+
+  navigation:
+    label: Navigation
+    icon: menu
+    fields:
+      navigation:
+        label: Main Navigation
+        type: structure
+        label: "{{ item.page.toPage.title }}"
+        fields:
+          page:
+            label: Page
+            type: pages
+            multiple: false
+            required: true
+            query: site.index # lets you pick ANY page, at any depth
+          label:
+            label: Custom label (optional)
+            type: text
+            help: Overrides the page's title in the menu
+          children:
+            label: Submenu pages
+            type: pages
+            multiple: true
+            query: site.index
+            help: Any pages in the site — they don't need to be actual subpages of the item above
 
   footer:
     label: Footer
@@ -86,3 +106,5 @@ tabs:
         buttons:
           - link
         help: Shown as small print at the bottom of the footer. Supports links via kirbytext.
+
+  

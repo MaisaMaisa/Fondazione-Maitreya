@@ -2,6 +2,50 @@ Title: Fondazione Maitreya
 
 ----
 
+Navigation:
+
+- 
+  page:
+    - page://h51ii3aco4ggedgu
+  label: ""
+  children:
+    - page://zggofpe0f2zyfna2
+    - page://hnuswal5tspwbtz3
+    - page://g5win7urkore22b6
+    - page://ibbzuubmrdnm3dp2
+- 
+  page:
+    - page://ns5vw7xms4cne3n8
+  label: ""
+  children: [ ]
+- 
+  page:
+    - page://ibbzuubmrdnm3dp2
+  label: ""
+  children: [ ]
+- 
+  page:
+    - page://6gmddv7snb6bf8gq
+  label: ""
+  children: [ ]
+- 
+  page:
+    - page://t1fryxmn3ecjlwa5
+  label: ""
+  children: [ ]
+- 
+  page:
+    - page://tn7qg6nxm5cebary
+  label: ""
+  children: [ ]
+- 
+  page:
+    - page://6wlnc1tbl15pzllw
+  label: ""
+  children: [ ]
+
+----
+
 Footer-headline: Fondazione Maitreya
 
 ----
