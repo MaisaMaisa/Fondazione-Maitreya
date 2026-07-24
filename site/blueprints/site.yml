@@ -15,18 +15,26 @@ tabs:
       navigation:
         label: Main Navigation
         type: structure
-        label: "{{ item.page.toPage.title }}"
+        label: "{{ item.label }}"
         fields:
+          type:
+            label: Item type
+            type: toggles
+            default: page
+            options:
+              page: Page link
+              label: Label only
           page:
             label: Page
             type: pages
             multiple: false
-            required: true
             query: site.index # lets you pick ANY page, at any depth
+            when:
+              type: page
           label:
-            label: Custom label (optional)
+            label: Label
             type: text
-            help: Overrides the page's title in the menu
+            help: For page links, overrides the page's title (optional). For "Label only" items, this text is required — it's the button text.
           children:
             label: Submenu pages
             type: pages
@@ -35,76 +43,74 @@ tabs:
             help: Any pages in the site — they don't need to be actual subpages of the item above
 
   footer:
-    label: Footer
-    icon: text
-    fields:
-      footer_headline:
-        label: Footer headline
-        type: text
-        default: "Fondazione Maitreya"
+      label: Footer
+      icon: text
+      fields:
+        footer_headline:
+          label: Footer headline
+          type: text
+          default: "Fondazione Maitreya"
 
-      footer_addresses:
-        label: Addresses
-        type: structure
-        fields:
-          name:
-            label: Location name
-            type: text
-          address:
-            label: Address
-            type: textarea
-            size: small
-        min: 1
+        footer_addresses:
+          label: Addresses
+          type: structure
+          fields:
+            name:
+              label: Location name
+              type: text
+            address:
+              label: Address
+              type: textarea
+              size: small
+          min: 1
 
-      footer_social:
-        label: Social links
-        type: structure
-        fields:
-          label:
-            label: Platform name
-            type: text
-          url:
-            label: URL
-            type: url
-        min: 1
+        footer_social:
+          label: Social links
+          type: structure
+          fields:
+            label:
+              label: Platform name
+              type: text
+            url:
+              label: URL
+              type: url
+          min: 1
 
-      footer_legal:
-        label: Legal links
-        type: structure
-        fields:
-          label:
-            label: Label
-            type: text
-          link:
-            label: Link
-            type: link
-        min: 1
+        footer_legal:
+          label: Legal links
+          type: structure
+          fields:
+            label:
+              label: Label
+              type: text
+            link:
+              label: Link
+              type: link
+          min: 1
 
-      footer_newsletter_heading:
-        label: Newsletter heading
-        type: text
-        default: "Iscriviti alla newsletter"
+        footer_newsletter_heading:
+          label: Newsletter heading
+          type: text
+          default: "Iscriviti alla newsletter"
 
-      footer_newsletter_placeholder:
-        label: Newsletter input placeholder
-        type: text
-        default: "Il tuo indirizzo email"
+        footer_newsletter_placeholder:
+          label: Newsletter input placeholder
+          type: text
+          default: "Il tuo indirizzo email"
 
-      footer_newsletter_button:
-        label: Newsletter button text
-        type: text
-        default: "ISCRIVITI"
+        footer_newsletter_button:
+          label: Newsletter button text
+          type: text
+          default: "ISCRIVITI"
 
-      footer_newsletter_action:
-        label: Newsletter form action URL
-        type: url
-        help: Endpoint from your newsletter provider (Mailchimp, Brevo, etc.) or a Kirby route.
+        footer_newsletter_action:
+          label: Newsletter form action URL
+          type: url
+          help: Endpoint from your newsletter provider (Mailchimp, Brevo, etc.) or a Kirby route.
 
-      footer_affiliations:
-        label: Affiliations text
-        type: textarea
-        buttons:
-          - link
-        help: Shown as small print at the bottom of the footer. Supports links via kirbytext.
-
-  
+        footer_affiliations:
+          label: Affiliations text
+          type: textarea
+          buttons:
+            - link
+          help: Shown as small print at the bottom of the footer. Supports links via kirbytext.

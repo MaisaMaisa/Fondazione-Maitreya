@@ -10,16 +10,27 @@
   <nav class="site-nav" id="site-nav">
     <?php foreach ($site->navigation()->toStructure() as $entry): ?>
       <?php
-        $page = $entry->page()->toPage();
-        if (!$page) continue; // page picker entry got deleted/moved
+        $type = $entry->type()->or('page')->value();
+        $page = $type === 'page' ? $entry->page()->toPage() : null;
+
+        if ($type === 'page' && !$page) continue; // page picker entry got deleted/moved
 
         $children = $entry->children()->toPages()->filter(fn ($p) => $p !== null);
-        $label    = $entry->label()->or($page->title())->value();
+        $label    = $entry->label()->or($page ? $page->title() : '')->value();
+
+        $childIsOpen = $children->count() && $children->filter(fn ($c) => $c->isOpen())->count();
+        $isActive    = $page ? $page->isOpen() : $childIsOpen;
       ?>
       <div class="nav-item <?= $children->count() ? 'has-dropdown' : '' ?>">
-        <a href="<?= $page->url() ?>" class="nav-link <?= $page->isOpen() ? 'is-active' : '' ?>">
-          <?= $label ?>
-        </a>
+        <?php if ($page): ?>
+          <a href="<?= $page->url() ?>" class="nav-link <?= $isActive ? 'is-active' : '' ?>">
+            <?= $label ?>
+          </a>
+        <?php else: ?>
+          <button type="button" class="nav-link nav-link--label <?= $isActive ? 'is-active' : '' ?>">
+            <?= $label ?>
+          </button>
+        <?php endif ?>
 
         <?php if ($children->count()): ?>
           <div class="nav-dropdown">
