@@ -32,3 +32,25 @@
   top: -0.4em;
   font-size: var(--text-h2);
 }
+
+@media (max-width: 768px) {
+  .donation-progress{
+    padding: 0;
+  }
+
+  .donation-progress__amounts, 
+  .donation-progress__donors {
+      font-size: var(--text-h3);
+      padding: 7vw 0;
+      margin: 0;
+  }
+
+  .donation-progress__bar{
+    margin: 0;
+  }
+
+  .donation-progress__percent,
+  .donate-block{
+    display: none;
+  }
+}

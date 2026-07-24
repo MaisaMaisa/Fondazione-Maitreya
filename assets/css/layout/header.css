@@ -1,6 +1,5 @@
-header{
-    padding: 0 7vw;
-
+header {
+  padding: 0 7vw;
 }
 
 .site-header {
@@ -33,14 +32,6 @@ header{
     margin: 10px 0;
   }
 }
-
-/* .site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: var(--space-xl-vertical-half) 0;
-} */
 
 .site-nav {
   display: flex;
@@ -75,12 +66,6 @@ header{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background: var(--bronzo);
 }
-
-/* DROPDOWN */
-/* .site-nav {
-  display: flex;
-  gap: 5px;
-} */
 
 .nav-item {
   position: relative;
@@ -146,6 +131,7 @@ header{
     border-radius: 999px;
     padding: 0.5rem 1.2rem;
     cursor: pointer;
+    color: black;
   }
 
   .site-nav {
@@ -186,14 +172,19 @@ header{
     transform: none;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     gap: 0.4rem;
-    padding-top: 0.4rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
   }
 
-  .nav-dropdown__link {
-    opacity: 1;
-    transform: none;
-    transition: none;
+  .nav-item.has-dropdown.is-open .nav-dropdown {
+    max-height: 1000px;
+  }
+
+  /* when drilled in, hide sibling top-level items */
+  .site-nav.is-drilled .nav-item:not(.is-open) {
+    display: none;
   }
 }

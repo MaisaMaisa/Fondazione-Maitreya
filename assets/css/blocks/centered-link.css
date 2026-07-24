@@ -25,3 +25,14 @@
   display: inline-block;
   transition: transform 0.15s ease;
 }
+
+@media (max-width: 800px) {
+  .centered-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    color: inherit;
+    text-decoration: none;
+    font-size: var(--text-h3);
+  }
+}

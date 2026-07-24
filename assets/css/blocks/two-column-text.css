@@ -16,7 +16,6 @@
   margin: 0 0 1em 0;
   line-height: 1.5;
   font-size: var(--text-h3);
-
 }
 
 .two-column-text__col p:last-child {
@@ -25,7 +24,18 @@
 
 @media (max-width: 800px) {
   .two-column-text {
+    padding: 7vw 0;
     grid-template-columns: 1fr;
-    gap: var(--space-m, 24px);
+    gap: 7vw;
+  }
+
+  .two-column-text__col p,
+  .two-column-text__col ol{
+    font-size: var(--text-h4);
+  }
+
+  .two-column-text__col h2{
+    font-size: var(--text-h3);
+    margin-top: 0;
   }
 }

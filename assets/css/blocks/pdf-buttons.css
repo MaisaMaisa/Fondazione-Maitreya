@@ -49,8 +49,3 @@
   }
 }
 
-@media (max-width: 420px) {
-  .pdf-collection {
-    grid-template-columns: 1fr;
-  }
-}

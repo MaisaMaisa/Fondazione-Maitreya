@@ -143,7 +143,6 @@ main {
 
 .heading-subtitle p {
   margin: var(--space-xl-vertical-half) 0 0 0;
-  /* margin: 0; */
 }
 
 .heading-subtitle p:first-child {
@@ -152,4 +151,15 @@ main {
 
 .menu-toggle {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .heading-block{
+    padding: 7vw 0;
+  }
+  
+  .heading-subtitle {
+    font-size: var(--text-h3);
+    line-height: 1.3;
+  }
 }

@@ -141,7 +141,16 @@
   .footer-grid > .footer-newsletter { grid-area: newsletter; }
 
   .site-footer{
-    margin: var(--space-xl-vertical-half) 0;
+    margin: var(--space-xl-vertical) 0;
     padding: var(--space-s) var(--space-m);
+  }
+
+  .newsletter-form{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .newsletter-form button{
+    padding: 0.5em 1.4em;
   }
 }

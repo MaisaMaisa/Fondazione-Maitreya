@@ -22,6 +22,11 @@
 @media (max-width: 800px) {
   .two-column-links {
     grid-template-columns: 1fr;
-    gap: var(--space-m, 24px);
+    gap: 7vw;
+    padding: 7vw 0;
+  }
+
+  .two-column-links a{
+    font-size: var(--text-h3);
   }
 }
