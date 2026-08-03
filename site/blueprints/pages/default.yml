@@ -15,7 +15,6 @@ fields:
       - paragraph
       - text-image
       - centered-title
-      - spacer
 
       # Rows / layout collections
       - vertical-row
